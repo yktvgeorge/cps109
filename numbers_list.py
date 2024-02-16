@@ -5,11 +5,16 @@ find the maximum and minimum from a list
 
 
 numbers: list[int] = [10, 8, 15, 3, 13, 17]
-print(numbers)
+type(numbers)
 
+max(numbers)
+min(numbers)
 
 def min_max(list):
     return min(list), max(list)
 
-max(numbers)
-min(numbers)
+print(max(numbers))
+print(min(numbers))
+
+
+
